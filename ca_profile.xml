@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommunityApplications>
+  <Profile>
+    Creating self-hosted and homelab-focused Community Applications for media tools, monitoring dashboards, and utility applications.
+  </Profile>
+  <Icon>https://raw.githubusercontent.com/operationETH/unraid-assets/main/operationeth/operationeth.png</Icon>
+  <WebPage>https://github.com/operationETH/unraid-templates</WebPage>
+</CommunityApplications>
