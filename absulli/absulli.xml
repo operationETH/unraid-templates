@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>absulli</Name>
+  <Repository>operationeth/absulli:latest</Repository>
+  <Registry>https://hub.docker.com/r/operationeth/absulli</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <MyMAC/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/199686-support-operationeth-absulli</Support>
+  <Project>https://github.com/operationETH/ABSulli</Project>
+  <ReadMe/>
+  <Overview>ABSulli is an Audiobookshelf companion dashboard inspired by the concept of Tautulli. Track audiobook and podcast listening activity, browse library stats, view history, manage notifications, and expose Prometheus metrics from one self-hosted web interface.</Overview>
+  <Category>MediaServer:Other</Category>
+  <WebUI>http://[IP]:[PORT:8272]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/operationETH/unraid-assets/main/absulli/absulli.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1782795693</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI Port" Target="8272" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8272</Config>
+  <Config Name="Config" Target="/config" Default="/mnt/user/appdata/absulli" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/absulli</Config>
+  <Config Name="PUID" Target="PUID" Default="1000" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">1000</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">1000</Config>
+  <Config Name="TZ" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">UTC</Config>
+  <TailscaleStateDir/>
+</Container>
+
