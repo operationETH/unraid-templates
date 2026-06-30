@@ -14,9 +14,9 @@
   <Overview>ABSulli is an Audiobookshelf companion dashboard inspired by the concept of Tautulli. Track audiobook and podcast listening activity, browse library stats, view history, manage notifications, and expose Prometheus metrics from one self-hosted web interface.</Overview>
   <Category>MediaServer:Other</Category>
   <WebUI>http://[IP]:[PORT:8272]/</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/operationETH/unraid-templates/main/templates/absulli.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/operationETH/unraid-assets/main/absulli/absulli.png</Icon>
-  <ExtraParams/>
+  <ExtraParams>--restart unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1782795693</DateInstalled>
