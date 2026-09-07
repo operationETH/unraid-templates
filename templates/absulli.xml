@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>absulli</Name>
-  <Repository>operationeth/absulli:latest</Repository>
-  <Registry>https://hub.docker.com/r/operationeth/absulli</Registry>
+  <Repository>ghcr.io/operationeth/absulli:latest</Repository>
+  <Registry>https://github.com/operationETH/ABSulli/pkgs/container/absulli</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <MyMAC/>
