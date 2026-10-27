@@ -16,7 +16,7 @@
   <WebUI>http://[IP]:[PORT:8272]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/operationETH/unraid-templates/main/templates/absulli.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/operationETH/unraid-assets/main/absulli/absulli.png</Icon>
-  <ExtraParams>--restart unless-stopped</ExtraParams>
+  <ExtraParams>--restart unless-stopped --security-opt no-new-privileges:true</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1782795693</DateInstalled>
